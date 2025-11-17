@@ -10,6 +10,15 @@
 
 # hugo new theme Lovelt  创建主题
 
+# hugo new post/XXX.md 新建文章
 
+# hugo 生成网页
+
+# hugo server -D 启动Hogo server
+
+# 打开网址浏览器查看
+# http://localhost:1313
+
+# https://preview.hugo-next.eu.org/
 
 
