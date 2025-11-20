@@ -1,568 +1,403 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en-us" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pehtheme</title>
+
+<meta name="description" content="Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.">
+    <link rel="stylesheet" href="/css/main.css">
+
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg"> 
+<link rel="icon" type="image/x-icon" href="http://localhost:1313/favicon.ico"> 
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png"> 
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32.png"> 
+<link rel="icon" type="image/png" sizes="64x64" href="http://localhost:1313/favicon-64.png"> 
+
+</head>
+<body>
+  <header class="py-6 border-b"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col">
+	<div class="flex items-center">
+		<div class="flex items-center">
+			<button class="flex items-center space-x-2 rounded-full border py-1 pr-[5px] pl-3 group bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="menu-bar">
+				<svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+				</svg>
+				<span class="bg-blue-500 fill-white rounded-full p-1.5">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="group-hover:animate-spin bi bi-egg-fried fill-white" viewBox="0 0 16 16">
+						<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+						<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"></path>
+					</svg>
+				</span>
+			</button>
+			<div class="relative rounded-full py-1.5 px-6 bg-zinc-100 hover:bg-zinc-200 text-xl font-bold uppercase mx-2">
+				<h1><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="http://localhost:1313/">Pehtheme</a></h1>
+			
+			</div>
+		</div>
+		<div class="flex items-center ml-auto">
+			<button class="flex items-center rounded-full p-3 bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="search-bar">
+				<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+					<path id="path1" class="transition-all ease-linear" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+					<path id="path2" class="transition-all ease-linear hidden" d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"></path>
+				</svg>
+			</button>
+		</div>
+	</div>
+  <nav id="menu-bar" class="block mt-3 close">
+    <ul class="flex items-center flex flex-nowrap whitespace-nowrap overflow-x-auto space-x-4">
+    <li class="my-2">
+      <a aria-current="page" class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200 border-zinc-400" href="/">Home</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/about/">About</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/tags/">Tags</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/tags/space/">Taxonomy</a>
+    </li>
+    </ul>
+  </nav>
+<div id="search-bar" class="block mt-3 close">
+	<form id="search" class="flex items-stretch">
+		<input class="w-full block px-6 py-2 rounded-l-full focus:outline-none border border-zinc-200" type="text" placeholder="Search...">
+		<button class="flex items-center px-7 py-2.5 rounded-r-full border border-zinc-200 ">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="group-hover:animate-pulse" viewBox="0 0 16 16">
+				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+			</svg>
+		</button>
+	</form>
+</div>
+</div></header>
+  <main class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+
+<section class="block md:flex relative group p-6 lg:p-10 space-y-6 md:space-x-6 my-14 bg-zinc-100 rounded-3xl hover:bg-blue-100">
+  <figure class="basis-1/2 w-full aspect-video overflow-hidden rounded-2xl border">
+          <img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/daniele-colucci-OtXJhYjbKeg-unsplash_hu_840cecb92d348dd7.jpg" alt="Pehtheme" width="720" height="405">
+
+  </figure>
+  <div class="basis-1/2 self-center">
+    <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold mb-4"><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="http://localhost:1313/posts/2023/space-explorations-next-frontier/">Space Exploration&#39;s Next Frontier: The Race to Reach Mars</a></h2>
+    <time datetime="2023-08-15T13:45:49&#43;07:00"><span class="font-bold">Aug 15, 2023</span></time>
+  </div>
+</section>
+
+
+
+
+
+<section class="mb-16">
+
     
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <div class="flex items-center mb-6">
 
-<title>斯无邪</title>
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">Astronomy</h2>
 
-<meta name="description" content="Your can add your website description here.">
+      <a class="border rounded-full py-2 px-4 md:px-6 hover:bg-blue-100" href="http://localhost:1313/categories/astronomy">View All</a>
+    </div>
 
-<meta name="author" content="斯无邪"><script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "斯无邪",
-    
-    "url": "http:\/\/localhost:1313\/"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "http:\/\/localhost:1313\/"
-  
-  
-  
-  
-}
-</script>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
 
-<meta property="og:title" content="斯无邪" />
-<meta property="og:url" content="http://localhost:1313/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="斯无邪" />
-<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+    <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/"></a>
 
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nadine-shaabana-ZPP-zP8HYG0-unsplash_hu_369408474738d50.jpg" alt="Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness" width="750" height="422">
 
-<meta name="generator" content="Hugo 0.152.2">
-<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="斯无邪">
-<script src="http://localhost:1313/js/dark-mode.js"></script><script src="http://localhost:1313/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+	  </figure>
 
+	<div class="p-6">
 
+		<time datetime="2023-10-04T22:11:36&#43;07:00">Oct 04, 2023</time>
 
+		<h3 class="my-4 text-2xl font-bold">Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness</h3>
 
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Exploring the mysteries of black holes, the enigmatic cosmic phenomena.</p>
 
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/stellar-spectacles/"></a>
 
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/lionel-hesry-UNd3lRKhwSw-unsplash_hu_5a1d30e3f245661f.jpg" alt="Stellar Spectacles: The Wonders of Supernova Explosions" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-09-23T22:45:37&#43;07:00">Sep 23, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">Stellar Spectacles: The Wonders of Supernova Explosions</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Explore the breathtaking phenomena of supernova explosions, the cosmic fireworks of the universe.</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/the-great-beyond/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/brent-cox-ydGRmobx5jA-unsplash_hu_36ab484d93c3e629.jpg" alt="The Great Beyond: Exploring the Expanding Universe" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-08-12T14:15:05&#43;07:00">Aug 12, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">The Great Beyond: Exploring the Expanding Universe</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Delve into the awe-inspiring journey of exploring the universe&#39;s expansion and the mysteries it unveils.</p>
+
+	</div>
+</article>
+
+    </div>
+
+  </section>
 
  
-
- <link href="http://localhost:1313/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-
-<script src="http://localhost:1313/vendor/glightbox/js/glightbox.min.js"></script>
- 
-  </head>
-  <body>
-    
-<div class="container fixed-top mw-100">
-  <div class="row justify-content-center">
-    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
-
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
-        <div class="container">
-
-          <a class="navbar-brand fw-bold" href="http://localhost:1313/">斯无邪</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
-              
-
-              
-
-              <li class="nav-item">
-                
-                
-                
-                
-                
-
-                <a class="nav-link " title="首页"
-                  href="/"> 首页</a>
-              </li>
-
-              
-              
-
-              
-
-              <li class="nav-item">
-                
-                
-                
-                
-                
-
-                <a class="nav-link " title="博文"
-                  href="/post/"> 博文</a>
-              </li>
-
-              
-              
-
-              
-
-              <li class="nav-item">
-                
-                
-                
-                
-                
-
-                <a class="nav-link " title="笔记"
-                  href="/notes/"> 笔记</a>
-              </li>
-
-              
-              
-
-              
-
-              <li class="nav-item">
-                
-                
-                
-                
-                
-
-                <a class="nav-link " title="标签"
-                  href="/tags/"> 标签</a>
-              </li>
-
-              
-              
-
-              
-
-              <li class="nav-item">
-                
-                
-                
-                
-                
-
-                <a class="nav-link " title="About"
-                  href="/about/"> About</a>
-              </li>
-
-              
-              
+<hr class="my-8">
 
 
-                
-            
+  <section class="mb-16">
 
-            
-              <li class="nav-item nav-link">
-                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
-              </li>
+    <div class="flex items-center mb-6">
 
-              
-              
-              <li class="nav-item search-item">
-                <form id="search" class="search" role="search">
-                  <label for="search-input" class="bi bi-search search-icon"></label>
-                  <input type="search" id="search-input" class="search-input">
-                </form>
-              </li>
-              
-            </ul>
-
-            
-            <template id="search-heading" hidden data-results-none=""
-              data-results-one=""
-              data-results-many="">
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
-                  <h1 id="search-title" class="search-title"></h1>
-                </div>
-              </div>
-            </template>
-
-            <template id="search-result" hidden>
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
-                  <article class="content post">
-                    <h2><a class="summary-title-link"></a></h2>
-                    <div class="post-entry"></div>
-                    <div class="read-more-section">
-                      <h6 class="text-muted link-underline">
-                        <a class="read-more-link">
-                          Read more
-                          <i class="bi bi-arrow-right"></i>
-                        </a>
-                      </h6>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </template>
-            
-          </div>
-        </div>
-      </nav>
+      <h2 class="text-3xl md:text-4xl font-bold mr-auto">Recent Post</h2>
 
     </div>
-  </div>
-</div>
-    
 
-
-
-
-
-
-
-
-
-
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
 
     
 
+    <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/"></a>
 
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nadine-shaabana-ZPP-zP8HYG0-unsplash_hu_369408474738d50.jpg" alt="Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness" width="750" height="422">
 
+	  </figure>
 
-  
+	<div class="p-6">
 
-<section>
-    <div class="container" role="main">
-    <div class="row intro-header mt-10 pb-5">
+		<time datetime="2023-10-04T22:11:36&#43;07:00">Oct 04, 2023</time>
 
-      <div class="col-sm-12 col-md-8 col-lg-8">
-        <h2 class="fw-medium">Hello, I'm Bino</h2>
-        <p class="fw-light">Welcome to my digital garden!</p>
+		<h3 class="my-4 text-2xl font-bold">Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness</h3>
 
-        <p class="fw-light">斯是陋室，也要装修！感谢原作者hugo Theme！</p>
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Exploring the mysteries of black holes, the enigmatic cosmic phenomena.</p>
 
-        <p class="fw-light">If you're new here, feel free to explore the website by clicking the below button.</p>
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/galactic-marvels/"></a>
 
-        <a href="/about/"  class="">
-          <button type="button" class="btn btn-success bg-cgreen">Explore</button>
-        </a>
-      </div>
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nasa-rTZW4f02zY8-unsplash_hu_e603abfa3d2a943a.jpg" alt="Galactic Marvels: The Most Spectacular Nebulas in the Cosmos" width="750" height="422">
 
-      <div class="col-sm-12 col-md-4 col-lg-4">
-      
-      
-        <img 
-          loading="lazy" 
-          src="/img/profile/home-profile-pic.jpg" 
-          alt="Image of Author"
-          class="img-fluid avatar pt-2"
-          style="max-width: 250px;"
-        >
-      
-      </div>
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-09-24T11:15:17&#43;07:00">Sep 24, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">Galactic Marvels: The Most Spectacular Nebulas in the Cosmos</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">galactic marvels the most spectacular nebulas in the cosmos</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/stellar-spectacles/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/lionel-hesry-UNd3lRKhwSw-unsplash_hu_5a1d30e3f245661f.jpg" alt="Stellar Spectacles: The Wonders of Supernova Explosions" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-09-23T22:45:37&#43;07:00">Sep 23, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">Stellar Spectacles: The Wonders of Supernova Explosions</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Explore the breathtaking phenomena of supernova explosions, the cosmic fireworks of the universe.</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/space-explorations-next-frontier/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/daniele-colucci-OtXJhYjbKeg-unsplash_hu_e50de2eaab07eb7b.jpg" alt="Space Exploration&#39;s Next Frontier: The Race to Reach Mars" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-08-15T13:45:49&#43;07:00">Aug 15, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">Space Exploration&#39;s Next Frontier: The Race to Reach Mars</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Explore the exciting endeavors and challenges of reaching Mars in the new era of space exploration.</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2023/the-great-beyond/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/brent-cox-ydGRmobx5jA-unsplash_hu_36ab484d93c3e629.jpg" alt="The Great Beyond: Exploring the Expanding Universe" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-08-12T14:15:05&#43;07:00">Aug 12, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">The Great Beyond: Exploring the Expanding Universe</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Delve into the awe-inspiring journey of exploring the universe&#39;s expansion and the mysteries it unveils.</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/2022/cosmic-time-travel/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/javardh-2q6C5zDJOsg-unsplash_hu_75a4248aa78c91bb.jpg" alt="Cosmic Time Travel: Peering into the Universe&#39;s Past with Telescopes" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2023-08-07T09:30:32&#43;07:00">Aug 07, 2023</time>
+
+		<h3 class="my-4 text-2xl font-bold">Cosmic Time Travel: Peering into the Universe&#39;s Past with Telescopes</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Explore how telescopes enable us to journey back in time by observing distant celestial objects.</p>
+
+	</div>
+</article>
+
     </div>
-  </div>
+
+    
+
+    <div class="flex items-center mt-10"><a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="/page/2/">Next →</a></div>
+
   </section>
 
-  <section class="section-primary-bg">
-    <div class="container">
-    <div class="row mt-5">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
-        <h2 class="fw-medium">Essays</h2>
-        <p class="mt-0">A curated mix of technical essays and daily learnings.</p>
-      </div>
-    </div>
+<div class="max-w-7xl mx-auto my-16 rounded-3xl bg-blue-500">
+	
+	<div class="flex flex-wrap p-6 lg:p-10 space-y-6 lg:space-y-0">
 
+		<div class="w-full md:w-3/5 lg:pr-10 text-white">
 
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
-        <div class="row">
-          
-          
-        </div>
-      </div>
-    </div>
+			<h3 class="text-2xl font-semibold mb-4">Stay In The Loop! Subscribe to Our Newsletter.</h3>
 
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
-        <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-4">
-          <a href="/posts/" class="link-underline position-relative d-inline-block">
-            Browse all <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
+			<p>Join our community of enthusiasts and stay informed. Just enter your email below, and we'll make sure you're always in the know!</p>
+
+		</div>
 
 
 
-  
-  <section class="notes-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mt-4">
-          <h2 class="fw-medium">Notes</h2>
-          <p class="mt-0">A personal mix of poetry, reading notes, social media fragments, and curious reflections.</p>
-        </div>
-      </div>
+		<div class="self-center flex flex-col w-full md:w-2/5">
 
+			<form class="block lg:flex space-y-6 lg:space-y-0 lg:space-x-4">
 
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
-          <div class="row">
-            
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <div class="card h-100 single-post-card shadow-effect bg-faded-light border rounded-4">
-        <a href="http://localhost:1313/notes/firstnotes/" aria-label="Link to FirstNotes">
-            <div class="card-body">
+				<input class="w-full lg:w-3/5 px-6 py-2 rounded-full" type="text" placeholder="Email...">
 
-                <h3 class="fw-medium post-title">FirstNotes</h3>
-                
+				<button class="w-full lg:w-2/5 px-6 py-2 rounded-full bg-white">Subscribe</button>
 
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
+			</form>
+		</div>
+		
+	</div>
 
-  20 November 2025
+</div></main>
+  <footer class="bg-zinc-100 py-10 md:py-14"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
 
-  
+  <div class="flex flex-wrap space-y-6 mb-4">
 
-  
+    <div class="w-full md:w-3/5 flex flex-col space-y-4 md:pr-8 lg:pr-10">
 
-  
-
-  
-</span>
-
-                </p>
-                
-
-                
-                    <div class="post-entry text-secondary">
-                
-
-                    
-                    初见 一定要成功
-
-                    
-                </div>
-                <div class="read-more-section">
-                    <h6><a href="http://localhost:1313/notes/firstnotes/" class="small text-muted " alt="Link to FirstNotes">Read more <i class="bi bi-arrow-right"></i></a> </h6>
-                </div>
-            </div>
-        </a>
-        </a>
-    </div>
-</div>
-            
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
-          <div class="row">
-            <div class="col-sm-12  col-md-12 col-lg-6 col-xl-6 mb-4">
-              <a href="/notes/" class="link-underline position-relative d-inline-block">Browse all <i class="bi bi-arrow-right"></i> </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  
-
-  
-
-
-
-</div>
-</div>
-</div>
-
-
-
-    
-
-
-
-
-<footer>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <ul
-          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
-
-          
-          <li>
-            <a href="https://www.facebook.com/username" title="Facebook" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-facebook"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/username" title="GitHub" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-github"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://gitlab.com/username" title="GitLab" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-gitlab"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/username" title="Twitter" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-twitter-x"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://username.slack.com/" title="Slack" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-slack"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://reddit.com/u/username" title="Reddit" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-reddit"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/username" title="LinkedIn" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-linkedin"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-stack-overflow"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.snapchat.com/add/username" title="Snapchat" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-snapchat"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/username" title="Instagram" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-instagram"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/user/username" title="Youtube" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-youtube"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://open.spotify.com/user/username" title="Spotify" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-spotify"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://paypal.me/username" title="PayPal" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-paypal"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://telegram.me/username" title="Telegram" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-telegram"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://url" title="Mastodon" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-mastodon"></i>
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            <a href="/index.xml" title="RSS">
-              <span class="mx-2">
-                <i class="bi bi-rss"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <p class="credits copyright text-muted">
-          
-          
-          <a href="https://seuhub.github.io/">斯无邪</a>
-          
-          
-
-          &nbsp;&bull;&nbsp;&copy;
-          
-          2025
-          
-
-          
-          &nbsp;&bull;&nbsp;
-          <a href="http://localhost:1313/">斯无邪</a>
-          
-        </p>
+      <a class="flex items-center group" href="http://localhost:1313/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="mr-2 group-hover:animate-spin" viewBox="0 0 16 16">
+          <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          <path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+        </svg>
         
-        <p class="credits theme-by text-muted">
-          Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>&nbsp; Made with ❤ by <a href="https://binovarghese.com">Bino</a>
-          
-        </p>
-      </div>
+        <span class="text-2xl font-semibold uppercase">Pehtheme</span>
+      </a>
+
+      <p class="font-semibold">
+        Write with love. Minimalism design.<br>Clean code and built in Rembele, Gayo Highland.
+      </p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. At nulla, dolorum cumque ad. Officia voluptas excepturi distinctio maiores reiciendis minima aliquid aspernatur. Ullam tenetur saepe debitis, libero, in rerum vero?</p>
+
     </div>
-  </div>
-</footer><script src="http://localhost:1313/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="http://localhost:1313/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> 
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("pre.chroma").forEach(function (element) {
-    element.style.padding = "0";
-  });
-});
- </script>
 
+    <div class="self-center flex flex-col w-full md:w-2/5">
 
+<ul id="social-media" class="flex items-center space-x-4">
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.facebook.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+				<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.twitter.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.github.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.instagram.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+			</svg>
+		</a>
+	</li>
+</ul>
+
+    </div>
     
-  </body>
-</html>
+  </div>
 
+  <div class="my-8">
+    <ul class="flex items-center space-x-4">
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/">Home</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/about/">About</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/tags/">Tags</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/tags/space/">Taxonomy</a></li>
+      
+    </ul>
+  </div>
+
+  <div class="border-t pt-4">
+
+    <p class="text-sm">Copyright © 2025. All rights reserved. <a href="https://insertapps.com/en/" target="_blank" rel="noopener">Insertapps.com</a></p>
+
+  </div>
+  
+</div>
+</footer>
+      <script src="/js/insertoggle.js"></script>
+</body>
+</html>

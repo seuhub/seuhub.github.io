@@ -1,117 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>斯无邪</title>
+    <title>Pehtheme</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on 斯无邪</description>
+    <description>Recent content on Pehtheme</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 20 Nov 2025 09:42:01 +0800</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Oct 2023 20:37:29 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FirstNotes</title>
-      <link>http://localhost:1313/notes/firstnotes/</link>
-      <pubDate>Thu, 20 Nov 2025 09:42:01 +0800</pubDate>
-      <guid>http://localhost:1313/notes/firstnotes/</guid>
-      <description>&lt;h3 id=&#34;初见&#34;&gt;初见&lt;/h3&gt;&#xA;&lt;p&gt;一定要成功&lt;/p&gt;</description>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 06 Oct 2023 20:37:29 +0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pehtheme Hugo&lt;/strong&gt; is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>FirstBlog</title>
-      <link>http://localhost:1313/post/firstblog/</link>
-      <pubDate>Wed, 19 Nov 2025 18:06:47 +0800</pubDate>
-      <guid>http://localhost:1313/post/firstblog/</guid>
-      <description>&lt;h3 id=&#34;初见部落格&#34;&gt;初见部落格&lt;/h3&gt;&#xA;&lt;p&gt;一定调试好！！！&lt;/p&gt;</description>
+      <title>Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness</title>
+      <link>http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/</link>
+      <pubDate>Wed, 04 Oct 2023 22:11:36 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/</guid>
+      <description>&lt;p&gt;In the vast expanse of the cosmos, &lt;code&gt;there&lt;/code&gt; are few objects as mysterious and awe-inspiring as black holes. These enigmatic cosmic phenomena, once thought of as nothing more than theoretical curiosities, have now become a central focus of astronomical research. In this article, we embark on a journey deep into the heart of darkness, unraveling some of the secrets that lie within.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sample Post</title>
-      <link>http://localhost:1313/post/2020/sample-post/</link>
-      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/sample-post/</guid>
-      <description>&lt;p&gt;This is a sample post where you can understand how this is working.&lt;/p&gt;&#xA;&lt;p&gt;Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.&lt;/p&gt;</description>
+      <title>Galactic Marvels: The Most Spectacular Nebulas in the Cosmos</title>
+      <link>http://localhost:1313/posts/2023/galactic-marvels/</link>
+      <pubDate>Sun, 24 Sep 2023 11:15:17 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/galactic-marvels/</guid>
+      <description>&lt;p&gt;In the vast expanse of the cosmos, one cannot help but be captivated by the breathtaking beauty of nebulae. These celestial marvels are often hidden in the depths of space, waiting to be discovered and admired by astronomers and space enthusiasts alike. In this article, we will embark on a cosmic journey to explore some of the most spectacular nebulas in the cosmos, shedding light on their unique features and the mysteries they hold.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Install Hugo in Windows</title>
-      <link>http://localhost:1313/post/2020/install-hugo/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/install-hugo/</guid>
-      <description>&lt;p&gt;Hugo comes in three versions: Standard, Extended, and Extended/Deploy. The Standard edition covers core functionalities, while Extended adds advanced options, with Extended/Deploy** offering further deployment features.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-your-directories&#34;&gt;Setting Up Your Directories&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open File Explorer and create a folder, e.g., &lt;code&gt;C:\Hugo&lt;/code&gt;, and inside it, a &lt;code&gt;bin&lt;/code&gt; folder.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Download the latest Hugo executable from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases/&#34;&gt;Hugo releases&lt;/a&gt;.&lt;/p&gt;</description>
+      <title>Stellar Spectacles: The Wonders of Supernova Explosions</title>
+      <link>http://localhost:1313/posts/2023/stellar-spectacles/</link>
+      <pubDate>Sat, 23 Sep 2023 22:45:37 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/stellar-spectacles/</guid>
+      <description>&lt;p&gt;In the vast expanse of the cosmos, few events match the spectacle and scientific importance of supernova explosions. These awe-inspiring cosmic fireworks mark the dramatic end of a star&amp;rsquo;s life and offer profound insights into the universe&amp;rsquo;s workings. In this article, we embark on a journey to explore the wonders of supernova explosions, shedding light on their significance and the mysteries they unveil.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to use Lightbi theme ?</title>
-      <link>http://localhost:1313/post/2020/use-this-theme/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/use-this-theme/</guid>
-      <description>&lt;p&gt;In this post, we&amp;rsquo;ll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo’s quick-start guide&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create a New Hugo Site&lt;/strong&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;After completing the steps above, copy the contents of &lt;code&gt;exampleSite/contents&lt;/code&gt; into the &lt;code&gt;content&lt;/code&gt; folder of your website.&lt;/p&gt;</description>
+      <title>Space Exploration&#39;s Next Frontier: The Race to Reach Mars</title>
+      <link>http://localhost:1313/posts/2023/space-explorations-next-frontier/</link>
+      <pubDate>Tue, 15 Aug 2023 13:45:49 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/space-explorations-next-frontier/</guid>
+      <description>&lt;p&gt;The dream of reaching Mars has captured the imagination of scientists, engineers, and space enthusiasts for decades. In recent years, this dream has transformed into a tangible goal, with various space agencies and private companies embarking on missions to make it a reality. In this article, we delve into space exploration&amp;rsquo;s next frontier—the race to reach Mars.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Features of Lightbi</title>
-      <link>http://localhost:1313/post/2020/features-of-lightbi/</link>
-      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/features-of-lightbi/</guid>
-      <description>&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Three Main Content Sections:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collections&lt;/strong&gt; (Newsletter)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built with a &lt;strong&gt;mobile-first approach&lt;/strong&gt; for seamless viewing on any device.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Card-Based Theme&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Flexible image placement options:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Image at the top of the card&lt;/li&gt;&#xA;&lt;li&gt;Image in the middle of the card&lt;/li&gt;&#xA;&lt;li&gt;Image at the bottom of the card&lt;/li&gt;&#xA;&lt;li&gt;No image option&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Menu Location Indicator&lt;/strong&gt;:&lt;/p&gt;</description>
+      <title>The Great Beyond: Exploring the Expanding Universe</title>
+      <link>http://localhost:1313/posts/2023/the-great-beyond/</link>
+      <pubDate>Sat, 12 Aug 2023 14:15:05 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/the-great-beyond/</guid>
+      <description>&lt;p&gt;The universe, with its vastness and complexity, has intrigued humanity for centuries. In recent decades, our understanding of the cosmos has deepened, thanks to groundbreaking discoveries about the expansion of the universe. In this article, we embark on a journey to explore the great beyond, delving into the universe&amp;rsquo;s expansion and the mysteries it unveils.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Parameters in Lightbi</title>
-      <link>http://localhost:1313/post/2020/parameters/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/parameters/</guid>
-      <description>&lt;p&gt;Below is a list of configurable parameters in the Lightbi theme, along with descriptions to help you customize your site effectively. You can be adjust the below parameters in your &lt;code&gt;hugo.toml&lt;/code&gt; file.&lt;/p&gt;</description>
+      <title>Cosmic Time Travel: Peering into the Universe&#39;s Past with Telescopes</title>
+      <link>http://localhost:1313/posts/2022/cosmic-time-travel/</link>
+      <pubDate>Mon, 07 Aug 2023 09:30:32 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2022/cosmic-time-travel/</guid>
+      <description>&lt;p&gt;In the realm of astronomy, telescopes are our time machines, allowing us to peer into the distant past of the universe. These remarkable instruments have the power to capture light that has traveled across the cosmos for millions or even billions of years. In this article, we embark on a journey of cosmic time travel, exploring how telescopes enable us to witness the universe&amp;rsquo;s history.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>More about Lightbi</title>
-      <link>http://localhost:1313/post/2020/more-about-lightbi/</link>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/more-about-lightbi/</guid>
-      <description>&lt;p&gt;In this post, I’ll introduce the theme in detail — exploring its purpose, design philosophy, and key features. I’ll also share various ways you can support and contribute to the development of this theme, whether through feedback, code contributions, translations, or spreading the word.&lt;/p&gt;</description>
+      <title>The Hubble Space Telescope: 30 Years of Stunning Discoveries</title>
+      <link>http://localhost:1313/posts/2022/the-hubble-space-telescope/</link>
+      <pubDate>Sun, 30 Jul 2023 09:30:32 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2022/the-hubble-space-telescope/</guid>
+      <description>&lt;p&gt;For three remarkable decades, the Hubble Space Telescope has been our eye on the universe, delivering breathtaking images and transformative scientific insights. Since its launch in 1990, the Hubble has reshaped our understanding of the cosmos and provided us with unparalleled views of distant galaxies, nebulae, and other celestial wonders. In this article, we celebrate the Hubble Space Telescope&amp;rsquo;s 30 years of stunning discoveries.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Understanding Hugo Shortcodes</title>
-      <link>http://localhost:1313/post/2020/understanding-hugo-shortcodes/</link>
-      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/understanding-hugo-shortcodes/</guid>
-      <description>&lt;p&gt;Hugo shortcodes are powerful tools for adding custom HTML or other special content within Markdown files without complex code. They enable enhanced flexibility and are a core part of Hugo&amp;rsquo;s functionality, offering reusable snippets for embedding media, custom components, or dynamic content. Below, we’ll explore what shortcodes are and highlight some popular examples.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lightbi Custom Shortcodes</title>
-      <link>http://localhost:1313/post/2020/custom-shortcodes/</link>
-      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/custom-shortcodes/</guid>
-      <description>&lt;p&gt;To create your own shortcodes in Hugo, add an HTML file in layouts/shortcodes/. This theme provides the following useful custom shortcodes:&lt;/p&gt;&#xA;&lt;h3 id=&#34;info-card&#34;&gt;Info card&lt;/h3&gt;&#xA;&lt;p&gt;Displays information in a card format.&lt;/p&gt;&#xA;&lt;h5 id=&#34;shortcode&#34;&gt;Shortcode&lt;/h5&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{/* &amp;lt; info_cards header=&amp;#34;lorem-ipsum&amp;#34; title=&amp;#34;What is Lorem Ipsum?&amp;#34; content=&amp;#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&amp;#34; &amp;gt; */}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;output&#34;&gt;Output&lt;/h5&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;div class=&#34;card mb-3 p-0 mt-4 mb-4 info-card-bg&#34;&gt;&#xA;    &lt;div class=&#34;card-body&#34;&gt;&#xA;        &#xA;        &lt;h5 class=&#34;card-title mt-0&#34;&gt;&#xA;            What is Lorem Ipsum?&#xA;        &lt;/h5&gt;&#xA;        &#xA;        &lt;p class=&#34;card-text text-body-secondary fs-6 mt-0&#34;&gt;&#xA;&#xA;             &#xA;            Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#xA;            &#xA;        &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Image Gallery Shortcode</title>
-      <link>http://localhost:1313/post/2020/image-gallery/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/image-gallery/</guid>
-      <description>&lt;p&gt;Here’s a custom Hugo shortcode that creates an image gallery in a masonry style using GLightbox, allowing you to specify a folder containing images. This approach will display images from a specified folder in a masonry layout, and each image will open in a lightbox when clicked.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hosting Your Hugo Site on Netlify</title>
-      <link>http://localhost:1313/post/2020/netlify-configuration/</link>
-      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/netlify-configuration/</guid>
-      <description>&lt;p&gt;Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features like continuous deployment, a user-friendly dashboard, and advanced build settings.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What is Markdown ?</title>
-      <link>http://localhost:1313/post/2020/markdown/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/markdown/</guid>
-      <description>&lt;h3 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h3&gt;&#xA;&lt;p&gt;Markdown is a lightweight, plain-text formatting language used for creating styled text through simple, readable syntax. Developed by John Gruber in 2004, its goal is to allow writers to format documents without complex code, making it easy to read and edit. The beauty of Markdown lies in its simplicity, allowing creators to add headings, lists, images, links, and more by typing a few symbols around their text.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/2020/syntax/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/syntax/</guid>
-      <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.g., ### My Header).&#xA; &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Who am I ?!</title>
-      <link>http://localhost:1313/post/2020/who-am-i/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/who-am-i/</guid>
-      <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
+      <title>Exoplanets: Hunting for Earth&#39;s Cosmic Cousins</title>
+      <link>http://localhost:1313/posts/2022/exoplanets-hunting/</link>
+      <pubDate>Thu, 27 Jul 2023 13:03:07 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2022/exoplanets-hunting/</guid>
+      <description>&lt;p&gt;In the vast tapestry of the cosmos, one of the most intriguing quests of modern astronomy is the search for exoplanets, distant celestial bodies that might bear a resemblance to our own Earth. This endeavor is driven by the tantalizing question: Could there be other habitable worlds out there? In this article, we embark on a journey to explore the captivating hunt for Earth&amp;rsquo;s cosmic cousins.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
