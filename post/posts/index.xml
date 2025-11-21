@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>人间涂鸦 on 斯无邪|SIWUXIE</title>
+    <title>人间涂鸦 on 斯无邪</title>
     <link>http://localhost:1313/post/posts/</link>
-    <description>Recent content in 人间涂鸦 on 斯无邪|SIWUXIE</description>
+    <description>Recent content in 人间涂鸦 on 斯无邪</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 09:15:22 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/post/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lightbi Custom Shortcodes</title>
-      <link>http://localhost:1313/post/posts/%E5%88%9D%E8%A7%81%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
-      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/posts/%E5%88%9D%E8%A7%81%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
-      <description>&lt;h3 id=&#34;部落格&#34;&gt;部落格&lt;/h3&gt;</description>
+      <title>First Blood</title>
+      <link>http://localhost:1313/post/posts/test/</link>
+      <pubDate>Fri, 21 Nov 2025 09:15:22 +0800</pubDate>
+      <guid>http://localhost:1313/post/posts/test/</guid>
+      <description>&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
